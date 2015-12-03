@@ -1,0 +1,56 @@
+{
+  "name": "jquery-language-select",
+  "version": "1.0.0",
+  "description": "Easily build multilangual pages and select the language.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/jQuery-language-select.git"
+  },
+  "keywords": [
+    "multilangual",
+    "jquery"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/jQuery-language-select/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/jQuery-language-select#readme",
+  "blah": {
+      "example": [
+          { "h2": "Example" },
+          {
+              "code": {
+                  "language": "html",
+                  "content": [
+                        "<script src=\"path/to/jQuery-language-select.js\"></script>",
+                        "<p data-language=\"fr\">Salut!</p>",
+                        "<p data-language=\"en\">Hi!</p>",
+                        "",
+                        "<select id=\"select\">",
+                        "    <option value=\"fr\">French</option>",
+                        "    <option value=\"en\">Enlish</option>",
+                        "</select>",
+                        "<script>",
+                        "  // select French as initial language",
+                        "  $.setLanguage({attribute: \"data-language\", lang: \"fr\"});",
+                        "",
+                        "  // on change",
+                        "  $(\"#select\").on(\"change\", function () {",
+                        "    // set the new language",
+                        "    $.setLanguage({",
+                        "      attribute: \"data-language\",",
+                        "      lang: $(this).val()",
+                        "    });",
+                        "  });",
+                        "</script>"
+                  ]
+              }
+          }
+      ]
+  }
+}
