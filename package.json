@@ -21,36 +21,38 @@
   },
   "homepage": "https://github.com/IonicaBizau/jQuery-language-select#readme",
   "blah": {
-      "example": [
-          { "h2": "Example" },
-          {
-              "code": {
-                  "language": "html",
-                  "content": [
-                        "<script src=\"path/to/jQuery-language-select.js\"></script>",
-                        "<p data-language=\"fr\">Salut!</p>",
-                        "<p data-language=\"en\">Hi!</p>",
-                        "",
-                        "<select id=\"select\">",
-                        "    <option value=\"fr\">French</option>",
-                        "    <option value=\"en\">Enlish</option>",
-                        "</select>",
-                        "<script>",
-                        "  // select French as initial language",
-                        "  $.setLanguage({attribute: \"data-language\", lang: \"fr\"});",
-                        "",
-                        "  // on change",
-                        "  $(\"#select\").on(\"change\", function () {",
-                        "    // set the new language",
-                        "    $.setLanguage({",
-                        "      attribute: \"data-language\",",
-                        "      lang: $(this).val()",
-                        "    });",
-                        "  });",
-                        "</script>"
-                  ]
-              }
-          }
-      ]
+    "example": [
+      {
+        "h2": "Example"
+      },
+      {
+        "code": {
+          "language": "html",
+          "content": [
+            "<script src=\"path/to/jQuery-language-select.js\"></script>",
+            "<p data-language=\"fr\">Salut!</p>",
+            "<p data-language=\"en\">Hi!</p>",
+            "",
+            "<select id=\"select\">",
+            "    <option value=\"fr\">French</option>",
+            "    <option value=\"en\">Enlish</option>",
+            "</select>",
+            "<script>",
+            "  // select French as initial language",
+            "  $.setLanguage({attribute: \"data-language\", lang: \"fr\"});",
+            "",
+            "  // on change",
+            "  $(\"#select\").on(\"change\", function () {",
+            "    // set the new language",
+            "    $.setLanguage({",
+            "      attribute: \"data-language\",",
+            "      lang: $(this).val()",
+            "    });",
+            "  });",
+            "</script>"
+          ]
+        }
+      }
+    ]
   }
 }
