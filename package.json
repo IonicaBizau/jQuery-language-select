@@ -1,6 +1,6 @@
 {
   "name": "jquery-language-select",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Easily build multilangual pages and select the language.",
   "main": "lib/index.js",
   "scripts": {
@@ -54,5 +54,16 @@
         }
       }
     ]
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
