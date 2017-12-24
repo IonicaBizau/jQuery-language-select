@@ -10,7 +10,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save jquery-language-select
+# Using npm
+npm install --save jquery-language-select
+
+# Using yarn
+yarn add jquery-language-select
 ```
 
 
