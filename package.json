@@ -19,6 +19,11 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/jQuery-language-select/issues"
   },
+  {
+   "contributors": [
+      "JacenF"
+   ]
+  },
   "homepage": "https://github.com/IonicaBizau/jQuery-language-select#readme",
   "blah": {
     "example": [
