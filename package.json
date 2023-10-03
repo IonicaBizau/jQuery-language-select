@@ -1,7 +1,7 @@
 {
   "name": "jquery-language-select",
   "version": "1.1.11",
-  "description": "Easily build multilangual pages and select the language.",
+  "description": "Easily build multilingual pages and select the language.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
