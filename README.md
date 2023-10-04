@@ -29,7 +29,7 @@
 
 
 
-> Easily build multilangual pages and select the language.
+> Easily build multilingual pages and select the language.
 
 
 
