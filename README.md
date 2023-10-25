@@ -82,7 +82,7 @@ yarn add jquery-language-select
 
 <select id="select">
     <option value="fr">French</option>
-    <option value="en">Enlish</option>
+    <option value="en">English</option>
 </select>
 <script>
   // select French as initial language
@@ -128,7 +128,7 @@ Sets the language to the specified language.
 #### Params
 
 - **String|Object** `options`: The language value or an object containing:
- - `attribute` (String): The atribute name (default: `data-lang`).
+ - `attribute` (String): The attribute name (default: `data-lang`).
  - `lang` (String): The language value (default: `en`).
 
 
