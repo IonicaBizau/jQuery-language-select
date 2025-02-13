@@ -19,7 +19,7 @@
 
 # jquery-language-select
 
- [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/jquery-language-select.svg)](https://www.npmjs.com/package/jquery-language-select) [![Downloads](https://img.shields.io/npm/dt/jquery-language-select.svg)](https://www.npmjs.com/package/jquery-language-select) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/jquery-language-select.svg)](https://www.npmjs.com/package/jquery-language-select) [![Downloads](https://img.shields.io/npm/dt/jquery-language-select.svg)](https://www.npmjs.com/package/jquery-language-select) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/@johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 <a href="https://www.buymeacoffee.com/H96WwChMy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
 
@@ -82,7 +82,7 @@ yarn add jquery-language-select
 
 <select id="select">
     <option value="fr">French</option>
-    <option value="en">English</option>
+    <option value="en">Enlish</option>
 </select>
 <script>
   // select French as initial language
@@ -105,6 +105,7 @@ yarn add jquery-language-select
 
 
 
+
 ## :question: Get Help
 
 There are few ways to get help:
@@ -119,6 +120,8 @@ There are few ways to get help:
 
 
 
+
+
 ## :memo: Documentation
 
 
@@ -128,7 +131,7 @@ Sets the language to the specified language.
 #### Params
 
 - **String|Object** `options`: The language value or an object containing:
- - `attribute` (String): The attribute name (default: `data-lang`).
+ - `attribute` (String): The atribute name (default: `data-lang`).
  - `lang` (String): The language value (default: `en`).
 
 

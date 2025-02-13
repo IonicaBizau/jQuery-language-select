@@ -1,6 +1,6 @@
 {
   "name": "jquery-language-select",
-  "version": "1.1.12",
+  "version": "1.1.13",
   "description": "Easily build multilingual pages and select the language.",
   "main": "lib/index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "url": "https://github.com/IonicaBizau/jQuery-language-select/issues"
   },
   "contributors": [
-     "JacenF"
+    "JacenF"
   ],
   "homepage": "https://github.com/IonicaBizau/jQuery-language-select#readme",
   "blah": {
@@ -69,6 +69,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
